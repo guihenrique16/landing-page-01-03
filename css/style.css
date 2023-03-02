@@ -1,0 +1,16 @@
+/*import fonts*/
+@font-face {
+    font-family: ;
+    src: url();
+}
+
+
+
+
+/* reset CSS */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
