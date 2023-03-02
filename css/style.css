@@ -1,16 +1,76 @@
 /*import fonts*/
+
 @font-face {
-    font-family: ;
-    src: url();
+    font-family: 'bebas-neue';
+    src: url(../assts/fonts/Bebas_Neue/BebasNeue-Regular.ttf);
 }
 
 
-
-
 /* reset CSS */
-*{
+
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
 
+
+/*apenas para centralizar conteudo*/
+
+.layout-grid {
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: red;
+    height: 60px;
+}
+
+
+/*flexbox no cabeçalho*/
+
+header .header-flex {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+header nav a {
+    padding: 15px 30px;
+    font-family: 'bebas-neue';
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+header nav a:hover {
+    color: red;
+    background-color: white;
+}
+
+main {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+main p {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 24px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+main p:first-of-type {
+    background-color: black;
+    color: white;
+}
